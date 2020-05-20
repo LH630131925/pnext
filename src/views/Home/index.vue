@@ -1,12 +1,16 @@
 <template>
   <div>
-      <h1>首页</h1>
+      <Ahead></Ahead>
   </div>
 </template>
 
 <script>
+import Ahead from "../../components/Ahead"
 export default {
-    name:"Home"
+    name:"Home",
+    components:{
+      Ahead,
+    }
 }
 
 </script>

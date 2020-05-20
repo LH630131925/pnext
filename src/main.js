@@ -2,7 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import "@/assets/style/base.scss"
 
+
+// Vue.use(Col);
+// Vue.use(Row);
 Vue.config.productionTip = false
 
 new Vue({
